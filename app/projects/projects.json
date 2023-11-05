@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Wing it!",
+    "photo": "images/kiwi600x300.png",
+    "link": "https://alexthehaszard.github.io/wing-it/speedrun",
+    "github": ""
+  },
+  {
+    "name": "Rubik's Cube timer",
+    "photo": "images/cubetimer600x300.png",
+    "link": "https://alexthehaszard.github.io/cubeTimer",
+    "github": "https://github.com/alexthehaszard/cubeTimer"
+  },
+  {
+    "name": "Pathfinding Visualizer",
+    "photo": "images/pathfinding600x300.png",
+    "link": "https://alexthehaszard.github.io/pathfindingVisualizer/",
+    "github": "https://github.com/alexthehaszard/pathfindingAlgorithm"
+  },
+  {
+    "name": "Jacks (Card game)",
+    "photo": "images/jacks600x300.png",
+    "link": "https://alexthehaszard.github.io/jacks/",
+    "github": "https://github.com/alexthehaszard/jacks"
+  },
+  {
+    "name": "Conway's Game of Life",
+    "photo": "images/conways600x300.png",
+    "link": "https://alexthehaszard.github.io/conways-game-of-life/",
+    "github": "https://github.com/alexthehaszard/conways-game-of-life"
+  }
+]

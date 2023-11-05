@@ -1,0 +1,36 @@
+.main {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+  height: 100vh;
+}
+
+.main * {
+  margin: 0.25rem 0;
+  opacity: 0%;
+  animation: 1s ease 0s 1 slide;
+  animation-fill-mode: forwards;
+}
+
+.main p {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main h3 {
+  border-top: 1px solid white;
+  padding-top: 0.5rem;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0%;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
