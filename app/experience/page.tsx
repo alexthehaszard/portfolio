@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export default function ExperiencePage() {
   return (
-    <main className={styles.main}>
+    <main style={{ display: "none" }} className={styles.main}>
       <div className={`blur-backdrop`}>
         <section>
           <h1>Personal Experience</h1>
