@@ -73,6 +73,13 @@
   margin: 0.25rem;
 }
 
+.menu_screen .close {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  top: 0;
+  right: 2rem;
+}
+
 @media only screen and (max-width: 750px) {
   .nav > ul {
     display: none;

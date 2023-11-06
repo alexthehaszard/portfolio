@@ -49,7 +49,9 @@ export default function Nav() {
         <button onClick={() => router.push("/")}>
           <h2>Alex Haszard</h2>
         </button>
-        <button onClick={toggleDiplayScreen}>X</button>
+        <button className={styles.close} onClick={toggleDiplayScreen}>
+          X
+        </button>
         <ul>
           <li>
             <button onClick={() => toggleDiplayScreenAndRoute("/")}>
