@@ -62,7 +62,6 @@ a {
   width: 120%;
   height: 120%;
   transform: translate(-5%, -5%);
-  overflow-y: hidden;
 }
 
 canvas {
