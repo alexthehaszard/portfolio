@@ -1,15 +1,21 @@
 [
   {
-    "name": "Wing it!",
-    "photo": "images/kiwi600x300.png",
-    "link": "https://alexthehaszard.github.io/wing-it/speedrun",
-    "github": ""
+    "name": "Yahtzee Scorecard",
+    "photo": "images/yahtzee-img.png",
+    "link": "https://yahtzee-scorecard.vercel.app",
+    "github": "https://github.com/alexthehaszard/yahtzee-scorecard"
   },
   {
     "name": "Rubik's Cube timer",
     "photo": "images/cubetimer600x300.png",
     "link": "https://alexthehaszard.github.io/cubeTimer",
     "github": "https://github.com/alexthehaszard/cubeTimer"
+  },
+  {
+    "name": "Wing it!",
+    "photo": "images/kiwi600x300.png",
+    "link": "https://alexthehaszard.github.io/wing-it/speedrun",
+    "github": ""
   },
   {
     "name": "Pathfinding Visualizer",
