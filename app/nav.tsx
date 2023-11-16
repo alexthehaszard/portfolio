@@ -53,12 +53,14 @@ export default function Nav() {
         ></Image>
       </button>
       <div className={styles.menu_screen} style={{ display: displayScreen }}>
-        <Link href="/" onClick={toggleDiplayScreen}>
-          <h2>Alex Haszard</h2>
-        </Link>
-        <button className={styles.close} onClick={toggleDiplayScreen}>
-          X
-        </button>
+        <div>
+          <Link href="/" onClick={toggleDiplayScreen}>
+            <h2>Alex Haszard</h2>
+          </Link>
+          <button className={styles.close} onClick={toggleDiplayScreen}>
+            X
+          </button>
+        </div>
         <ul>
           {routes.map((m) => {
             return (
