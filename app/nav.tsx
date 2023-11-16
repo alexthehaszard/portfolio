@@ -2,39 +2,33 @@
 
 import styles from "./nav.module.css";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Nav() {
-  const router = useRouter();
   const [displayScreen, displayScreenApi] = useState("none");
 
   const toggleDiplayScreen = () => {
     displayScreenApi(displayScreen == "none" ? "initial" : "none");
   };
 
-  const toggleDiplayScreenAndRoute = (route: string) => {
-    displayScreenApi(displayScreen == "none" ? "initial" : "none");
-    router.push(route);
-  };
-
   return (
     <nav className={styles.nav}>
-      <button onClick={() => router.push("/")}>
+      <Link href="/">
         <h2>Alex Haszard</h2>
-      </button>
+      </Link>
       <ul>
         <li>
-          <button onClick={() => router.push("/")}>home</button>
+          <Link href="/">home</Link>
         </li>
         <li>
-          <button onClick={() => router.push("/projects")}>projects</button>
+          <Link href="/projects">projects</Link>
         </li>
         <li>
-          <button onClick={() => router.push("/experience")}>experience</button>
+          <Link href="/experience">experience</Link>
         </li>
         <li>
-          <button onClick={() => router.push("/contact")}>contact me</button>
+          <Link href="/contact">contact me</Link>
         </li>
       </ul>
       <button className={styles.menu_button} onClick={toggleDiplayScreen}>
@@ -46,32 +40,32 @@ export default function Nav() {
         ></Image>
       </button>
       <div className={styles.menu_screen} style={{ display: displayScreen }}>
-        <button onClick={() => router.push("/")}>
+        <Link href="/" onClick={toggleDiplayScreen}>
           <h2>Alex Haszard</h2>
-        </button>
+        </Link>
         <button className={styles.close} onClick={toggleDiplayScreen}>
           X
         </button>
         <ul>
           <li>
-            <button onClick={() => toggleDiplayScreenAndRoute("/")}>
+            <Link href="/" onClick={toggleDiplayScreen}>
               home
-            </button>
+            </Link>
           </li>
           <li>
-            <button onClick={() => toggleDiplayScreenAndRoute("/projects")}>
+            <Link href="/projects" onClick={toggleDiplayScreen}>
               projects
-            </button>
+            </Link>
           </li>
           <li>
-            <button onClick={() => toggleDiplayScreenAndRoute("/experience")}>
+            <Link href="/experience" onClick={toggleDiplayScreen}>
               experience
-            </button>
+            </Link>
           </li>
           <li>
-            <button onClick={() => toggleDiplayScreenAndRoute("/contact")}>
+            <Link href="/contact" onClick={toggleDiplayScreen}>
               contact me
-            </button>
+            </Link>
           </li>
         </ul>
       </div>
