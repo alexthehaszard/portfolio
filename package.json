@@ -14,13 +14,11 @@
     "next": "13.5.4",
     "nextjs-progressbar": "^0.0.16",
     "react": "^18",
-    "react-dom": "^18",
     "react-p5": "^1.4.1"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
-    "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "13.5.4",
     "typescript": "^5"

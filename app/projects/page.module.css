@@ -6,7 +6,7 @@
 
 .card {
   backdrop-filter: blur(2px);
-  border: 1px dashed rgb(255, 255, 255, 0.2);
+  border: 1px dashed rgb(255, 255, 255, 0.4);
   display: flex;
   flex-direction: column;
   align-items: center;
