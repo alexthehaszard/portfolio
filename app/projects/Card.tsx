@@ -1,5 +1,4 @@
 import styles from "./page.module.css";
-import { Project } from "./Project";
 import Image from "next/image";
 
 interface Props {
@@ -9,6 +8,13 @@ interface Props {
 
 interface LinkProps {
   href?: string;
+}
+
+export interface Project {
+  name: string;
+  photo: string;
+  link: string;
+  github: string;
 }
 
 export default function Card({ project, delay }: Props) {

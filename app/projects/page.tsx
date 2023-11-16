@@ -1,6 +1,5 @@
 import styles from "./page.module.css";
-import { Project } from "./Project";
-import Card from "./Card";
+import Card, { Project } from "./Card";
 import { promises as fs } from "fs";
 
 export default async function ProjectsPage() {
