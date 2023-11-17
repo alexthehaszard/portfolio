@@ -3,36 +3,48 @@
     "name": "Yahtzee Scorecard",
     "photo": "images/yahtzee-img.png",
     "link": "https://yahtzee-scorecard.vercel.app",
-    "github": "https://github.com/alexthehaszard/yahtzee-scorecard"
+    "github": "https://github.com/alexthehaszard/yahtzee-scorecard",
+    "tools": "React, Signals, JavaScript, Vercel, CSS",
+    "description": "This project was created as I wanted a simple Yahtzee scorecard that I could use on my phone. I used React as the framework for the web app, and experimented with Signals as my state management. This allows the app to have very performant DOM manipulation compared to other state management tools such as React's useState. Although it's probably not necessary for an app like this, I enjoyed the learning process and the final product is something that I used almost every day with my flatmates."
   },
   {
     "name": "Rubik's Cube timer",
     "photo": "images/cubetimer600x300.png",
     "link": "https://alexthehaszard.github.io/cubeTimer",
-    "github": "https://github.com/alexthehaszard/cubeTimer"
+    "github": "https://github.com/alexthehaszard/cubeTimer",
+    "tools": "p5js, JavaScript, CSS, HTML, Canvas, Bootstrap",
+    "description": "This was one of my earliest projects, which helped me learn JavaScript. The code is messy, since it was the first time I had ever written JavaScript, but it all works as expected in the end. This was originally a p5js app that used Canvas to draw everything. I then switched to using HTML and DOM manipulation, as that was what I wanted to learn next. I experimented with getting this working with Stackmat timers (if you are into cubing you will know about this), but in the end I couldn't wrap my head around it, and only got it to work periodically."
   },
   {
     "name": "Wing it!",
     "photo": "images/kiwi600x300.png",
     "link": "https://alexthehaszard.github.io/wing-it/speedrun",
-    "github": ""
+    "github": "",
+    "tools": "Unity, C#, Git",
+    "description": "This was a project that I created with 2 of my friends for the 2021 Secondary Schools game jam. It is a buggy mess, with horrific code, but it's what you'd expect from 3 high schoolers in 48 hours, especially with my minimal experience in C#. Despite this, it garnered a small speedrunning community within my school for a few weeks, and it even made the ODT!"
   },
   {
     "name": "Pathfinding Visualizer",
     "photo": "images/pathfinding600x300.png",
     "link": "https://alexthehaszard.github.io/pathfindingVisualizer/",
-    "github": "https://github.com/alexthehaszard/pathfindingAlgorithm"
+    "github": "https://github.com/alexthehaszard/pathfindingAlgorithm",
+    "tools": "JavaScript, Dijkstras, AStar, HTML, CSS",
+    "description": "This was a project I created a while back with inspiration from Clément Mihailescu and his version of this. The code is a bit of a mess for this one too, as I didn't create a good project structure before starting, so when it came time for me to expand it with more algorithms, it was a struggle. That's why it only supports Dijkstras and A*. In the end though the final product works pretty well, and gives a good visualization of the difference between a non-heuristic search algorithm (dijkstras) and a heuristic search algorithm (a*)."
   },
   {
     "name": "Jacks (Card game)",
     "photo": "images/jacks600x300.png",
     "link": "https://alexthehaszard.github.io/jacks/",
-    "github": "https://github.com/alexthehaszard/jacks"
+    "github": "https://github.com/alexthehaszard/jacks",
+    "tools": "HTML, CSS, JS, Monte-Carlo simulation",
+    "description": "This project was created because of a solitare card game I played as a child, called Jacks. The outcome of the game is completely deterministic, meaning that the outcome of the game is entirely decided by the shuffle of the cards. I always wanted to know what the odds were for winning this game, so I made a version that you can play using HTML, CSS and JS. Then I made a bot in JS that can play the game hundreds of a times a minute, which allowed me to perform a Monte-Carlo simulation and determine the odds of winning a game. I was able to determine that it's around a 16% chance of winning each time you play."
   },
   {
     "name": "Conway's Game of Life",
     "photo": "images/conways600x300.png",
     "link": "https://alexthehaszard.github.io/conways-game-of-life/",
-    "github": "https://github.com/alexthehaszard/conways-game-of-life"
+    "github": "https://github.com/alexthehaszard/conways-game-of-life",
+    "tools": "HTML, CSS, JS",
+    "description": "I created this because I thought it would be a fun challenge, and not too hard. I didn't overcomplicate things by using any frameworks, since I was still getting to know HTML at the time and had barely touched React."
   }
 ]
