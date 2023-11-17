@@ -50,7 +50,7 @@
 
 .link_container > a {
   padding: 1em;
-  border: 1px dashed rgb(255, 255, 255, 0.2);
+  border: 1px dashed rgb(255, 255, 255, 0.4);
   border-radius: 2em;
   width: fit-content;
   margin-right: 1em;
