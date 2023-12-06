@@ -44,8 +44,10 @@
   border-bottom: 1px solid white;
 }
 
-.card > a > img {
+.card_image {
+  border: 1px solid white;
   border-radius: 1rem;
+  z-index: -1;
 }
 
 .link_container > a {

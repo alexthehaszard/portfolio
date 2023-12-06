@@ -34,6 +34,7 @@ export default function Card({ project, delay }: Props) {
             width="300"
             height="150"
             alt={project.name}
+            className={styles.card_image}
           />
         </a>
         <div className={styles.link_container}>

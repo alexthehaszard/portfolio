@@ -19,6 +19,10 @@ body {
   position: relative;
 }
 
+h1 {
+  letter-spacing: -0.8px;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background-repeat: no-repeat;
