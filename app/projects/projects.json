@@ -45,7 +45,7 @@
     "link": "https://alexthehaszard.github.io/jacks/",
     "github": "https://github.com/alexthehaszard/jacks",
     "tools": "HTML, CSS, JS, Monte-Carlo simulation",
-    "description": "This project was created because of a solitare card game I played as a child, called Jacks. The outcome of the game is completely deterministic, meaning that the outcome of the game is entirely decided by the shuffle of the cards. I always wanted to know what the odds were for winning this game, so I made a version that you can play using HTML, CSS and JS. Then I made a bot in JS that can play the game hundreds of a times a minute, which allowed me to perform a Monte-Carlo simulation and determine the odds of winning a game. I was able to determine that it's around a 16% chance of winning each time you play."
+    "description": "This project was created because of a solitare card game I played as a child, called Jacks. The outcome of the game is completely deterministic, meaning that the outcome of the game is entirely decided by the shuffle of the cards. I always wanted to know what the odds were for winning this game, so I made a version that you can play using HTML, CSS and JS. Then I made a bot in JS that can play the game hundreds of a times a minute, which allowed me to perform a Monte-Carlo simulation and determine the odds of winning a game. I was able to determine that it's around a 14% chance of winning each time you play."
   },
   {
     "name": "Conway's Game of Life",
