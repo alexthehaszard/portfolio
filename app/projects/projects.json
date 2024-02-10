@@ -8,6 +8,14 @@
     "description": "This project was created as I wanted a simple Yahtzee scorecard that I could use on my phone. I used React as the framework for the web app, and experimented with Signals as my state management. This allows the app to have very performant DOM manipulation compared to other state management tools such as React's useState. Although it's probably not necessary for an app like this, I enjoyed the learning process and the final product is something that I used almost every day with my flatmates."
   },
   {
+    "name": "Pomodoro Timer",
+    "photo": "images/pomodoro.png",
+    "link": "https://pomodoro-timer-five-beige.vercel.app/",
+    "github": "https://github.com/alexthehaszard/pomodoro-timer",
+    "tools": "React, Vite, TypeScript, Vercel, CSS",
+    "description": "I built this project as a way to help me and my fellow university students keep on track when studying, as I often found myself or others having really long breaks, and doing minimal study. When I learned about the Pomodoro technique, I decided it would be good to make a timer which helps when using this technique, and I thought it would be a fun challenge. Some notable features about this version are that it has a very simple and minimal UI, designed to stay out of the way while focusing, along with its colour customization, which allows you to match the timer to your workspace."
+  },
+  {
     "name": "Rubik's Cube timer",
     "photo": "images/cubetimer600x300.png",
     "link": "https://alexthehaszard.github.io/cubeTimer",
