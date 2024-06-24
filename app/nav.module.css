@@ -1,8 +1,7 @@
 .nav {
   position: relative;
   display: flex;
-  justify-content: space-between;
-  padding: 3em;
+  flex-direction: column;
   z-index: 10;
 }
 
@@ -23,17 +22,28 @@
   margin-top: -2%;
 }
 
-.nav h2 {
+.marquee {
+  padding: 1em 0;
+  border-bottom: 1px dashed rgb(255, 255, 255, 0.4);
+}
+
+.nav_bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 3em;
+}
+
+.nav_bottom h2 {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
 
-.nav > ul {
+.nav_bottom > ul {
   display: flex;
   list-style-type: none;
 }
 
-.nav > ul > li {
+.nav_bottom > ul > li {
   padding: 0 1em;
 }
 

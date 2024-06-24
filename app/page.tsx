@@ -7,8 +7,7 @@ export default function Home() {
       <div className={`${styles.content} blur-backdrop`}>
         <h2>Hey, I&apos;m</h2>
         <h1>Alex Haszard</h1>
-        <h3>and I like to make websites.</h3>
-        <p>front-end developer - javascript, react, nextjs & more</p>
+        <h3>and I like to make software.</h3>
       </div>
     </main>
   );

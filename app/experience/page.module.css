@@ -27,7 +27,30 @@
 }
 
 .section > ul {
-  margin: 0.5em 0 0 1.5em;
+  list-style-type: none;
+}
+
+.section li {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 2fr 4em;
+  margin: 1em 0;
+  padding: 0 0 1em 0;
+  border-bottom: 1px dashed rgb(255, 255, 255, 0.4);
+}
+
+.section li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.section h4 {
+  text-align: center;
+}
+
+.section h3 {
+  padding: 0 1em 0 0;
 }
 
 @keyframes fadeIn {
