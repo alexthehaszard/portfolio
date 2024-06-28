@@ -120,7 +120,7 @@ export default function ExperiencePage() {
             <h3>COSC326 - Computational Problem Solving</h3>
             <p>
               Advanced my knowledge on problem solving, testing, working with
-              clients and working in a team. (Awaiting results)
+              clients and working in a team.
             </p>
             <h4>A</h4>
           </li>
@@ -128,7 +128,7 @@ export default function ExperiencePage() {
             <h3>COSC344 - Database Theory and Applications</h3>
             <p>
               Learned about relational databases, database design, graph
-              databases, and big data. (Awaiting results)
+              databases, and big data.
             </p>
             <h4>A-</h4>
           </li>
@@ -136,8 +136,7 @@ export default function ExperiencePage() {
             <h3>COSC342 - Visual Computing</h3>
             <p>
               Learned OpenGL using C++, focusing on the topics of image
-              processing, computer graphics and computer vision. (Awaiting
-              results)
+              processing, computer graphics and computer vision.
             </p>
             <h4>A</h4>
           </li>
@@ -145,7 +144,7 @@ export default function ExperiencePage() {
             <h3>COMO303 - Numerical Methods</h3>
             <p>
               Learned about matrix computation, data fitting, and numerical
-              solutions. For any programming we used Matlab. (Awaiting results)
+              solutions. For any programming we used Matlab.
             </p>
             <h4>B+</h4>
           </li>
