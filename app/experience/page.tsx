@@ -122,7 +122,7 @@ export default function ExperiencePage() {
               Advanced my knowledge on problem solving, testing, working with
               clients and working in a team. (Awaiting results)
             </p>
-            <h4>N/A</h4>
+            <h4>A</h4>
           </li>
           <li>
             <h3>COSC344 - Database Theory and Applications</h3>
@@ -130,7 +130,7 @@ export default function ExperiencePage() {
               Learned about relational databases, database design, graph
               databases, and big data. (Awaiting results)
             </p>
-            <h4>N/A</h4>
+            <h4>A-</h4>
           </li>
           <li>
             <h3>COSC342 - Visual Computing</h3>
@@ -139,7 +139,7 @@ export default function ExperiencePage() {
               processing, computer graphics and computer vision. (Awaiting
               results)
             </p>
-            <h4>N/A</h4>
+            <h4>A</h4>
           </li>
           <li>
             <h3>COMO303 - Numerical Methods</h3>
@@ -147,7 +147,7 @@ export default function ExperiencePage() {
               Learned about matrix computation, data fitting, and numerical
               solutions. For any programming we used Matlab. (Awaiting results)
             </p>
-            <h4>N/A</h4>
+            <h4>B+</h4>
           </li>
           <li>
             <h3>COSC343 - Artificial Intelligence</h3>
