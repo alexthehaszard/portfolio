@@ -27,7 +27,8 @@ export default function Nav() {
     },
   ];
   const skills = [
-    "Javascript",
+    "JavaScript",
+    "TypeScript",
     "React",
     "NextJS",
     "Python",
