@@ -150,17 +150,17 @@ export default function ExperiencePage() {
           </li>
           <li>
             <h3>COSC343 - Artificial Intelligence</h3>
-            <p>Paper not started.</p>
+            <p>Currently enrolled - results available end of Semester 2</p>
             <h4>N/A</h4>
           </li>
           <li>
             <h3>COSC345 - Software Engineering</h3>
-            <p>Paper not started.</p>
+            <p>Currently enrolled - results available end of Semester 2</p>
             <h4>N/A</h4>
           </li>
           <li>
             <h3>COSC349 - Cloud Computing Architecture</h3>
-            <p>Paper not started.</p>
+            <p>Currently enrolled - results available end of Semester 2</p>
             <h4>N/A</h4>
           </li>
         </ul>
