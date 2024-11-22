@@ -150,23 +150,43 @@ export default function ExperiencePage() {
           </li>
           <li>
             <h3>COSC343 - Artificial Intelligence</h3>
-            <p>Currently enrolled - results available end of Semester 2</p>
-            <h4>N/A</h4>
+            <p>
+              Learned about search methods, probabilistic reasoning,
+              reinforcement learning, neural networks, deep learning,
+              unsupervised learning. Programming in Python.
+            </p>
+            <h4>A-</h4>
           </li>
           <li>
             <h3>COSC345 - Software Engineering</h3>
-            <p>Currently enrolled - results available end of Semester 2</p>
-            <h4>N/A</h4>
+            <p>
+              Created a command-line drum sequencer for Windows called{" "}
+              <a href="https://github.com/Percussion-Protocols/COSC345">
+                CMDrum
+              </a>
+              . Learned about project planning, code review, continuous
+              integration/delivery, literate programming and debugging.
+              Development and planning was performed in groups of 4, with 2
+              scrum meetings each week. Programming in c++.
+            </p>
+            <h4>A+</h4>
           </li>
           <li>
             <h3>COSC349 - Cloud Computing Architecture</h3>
-            <p>Currently enrolled - results available end of Semester 2</p>
-            <h4>N/A</h4>
+            <p>
+              Learned about emulation, virtualisation, containers, IaaS, PaaS,
+              SaaS, FaaS, kubernetes, networking and security. As part of the
+              course the AWS academy was used, and we had hands on experience
+              developing with EC2 (Elastic Compute), S3 (Object Storage), RDS
+              (Realtime Database) and more.
+            </p>
+            <h4>A-</h4>
           </li>
         </ul>
       ),
     },
   ];
+
   return (
     <main style={{ display: "none" }} className={styles.main}>
       {content.map((m, i) => {
