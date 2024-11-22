@@ -30,6 +30,10 @@
   list-style-type: none;
 }
 
+.section a {
+  text-decoration: underline;
+}
+
 .section li {
   display: grid;
   width: 100%;
