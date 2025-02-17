@@ -27,7 +27,6 @@
     "name": "Wing it!",
     "photo": "images/kiwi600x300.png",
     "link": "https://alexthehaszard.github.io/wing-it/speedrun",
-    "github": "",
     "tools": "Unity, C#, Git",
     "description": "This was a project that I created with 2 of my friends for the 2021 Secondary Schools game jam. It is a buggy mess, with horrific code, but it's what you'd expect from 3 high schoolers in 48 hours, especially with my minimal experience in C#. Despite this, it garnered a small speedrunning community within my school for a few weeks, and it even made the ODT!"
   },

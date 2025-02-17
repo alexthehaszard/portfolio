@@ -14,7 +14,7 @@ export interface Project {
   name: string;
   photo: string;
   link: string;
-  github: string;
+  github?: string;
   description: string;
   tools: string;
 }
@@ -39,7 +39,7 @@ export default function Card({ project, delay }: Props) {
         </a>
         <div className={styles.link_container}>
           <a href={project.link}>View project</a>
-          <a {...linkProps} className={project.github ? "" : styles.disabled}>
+          <a {...linkProps} className={!project.github ? styles.disabled : ""}>
             View code
           </a>
         </div>

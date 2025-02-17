@@ -1,4 +1,3 @@
-# TODO
+# Alex's Portfolio
 
-[x] fix close button in mobile nav menu
-[x] fix footer in experience page
+Made using React & NextJS, the project isn't perfect but works exactly as I want it to .
