@@ -18,10 +18,6 @@ export default function Nav() {
       title: "projects",
     },
     {
-      link: "/experience",
-      title: "academic record",
-    },
-    {
       link: "/contact",
       title: "contact me",
     },
