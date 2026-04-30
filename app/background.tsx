@@ -40,8 +40,6 @@ export default function Background() {
       ctx.fillStyle = "rgb(100, 100, 100)";
       ctx.lineWidth = 2;
 
-      const pairsSet = new Set(); // to stop duplicate lines
-
       for (let i = 0; i < num_points; i++) {
         const closest: Point[] = [
           { x: 0, y: 0, direction: 0 },
@@ -54,9 +52,11 @@ export default function Background() {
           if (i == j) continue;
           const dist = Math.hypot(
             points[i].x - points[j].x,
-            points[i].y - points[j].y
+            points[i].y - points[j].y,
           );
+          // get the index of the furthes point in the list of closest points
           const barrierIndex = closestDist.indexOf(Math.max(...closestDist));
+          // if this point is closer than the furest point, replace it
           if (dist < closestDist[barrierIndex]) {
             closest[barrierIndex] = points[j];
             closestDist[barrierIndex] = dist;
@@ -66,11 +66,7 @@ export default function Background() {
         for (let j = 0; j < closest.length; j++) {
           ctx.beginPath();
           ctx.moveTo(points[i].x, points[i].y);
-          if (closestDist[j] > 150 || pairsSet.has(closestDist[j])) continue;
-          // very simplistic hashing (just adding the coordinates together,
-          // doesn't have different numbers 100% of the time but
-          // close enough)
-          pairsSet.add(closestDist[j]);
+          if (closestDist[j] > 150) continue;
           const weight = 40;
           ctx.strokeStyle = `rgb(${weight}, ${weight}, ${weight})`;
           ctx.lineTo(closest[j].x, closest[j].y);
